@@ -1,0 +1,22 @@
+.color-picker-form{
+  display: flex;
+  flex-wrap: wrap;  
+}
+.color-picker-form > div{
+background-size: 56.57px 56.57px;
+	margin:2px;
+    font-size: 0;
+}
+.color-picker-form label{
+  	background-image: linear-gradient(45deg, #e7dff5 25%, #585866 25%, #585866 50%, #e7dff5 50%, #e7dff5 75%, #585866 75%, #585866 100%);
+	padding:12px;
+  margin:2px;
+  border:3px solid #585866;
+  border-radius:10px ;
+}
+.color-picker-form label:hover{
+	cursor:pointer;
+}
+.color-picker-form input[type="radio"]:checked+label {
+  border-color: #41acfb;
+}
